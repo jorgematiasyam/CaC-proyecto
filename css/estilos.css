@@ -1,0 +1,305 @@
+body{
+    font-family: 'Montserrat' , sans-serif;
+    margin:0px;	   
+    padding: 0; 
+	
+}
+header{
+    background: url(../imgEditadas/img3.jpg); 
+    
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+}
+
+/*Comienzo de maquetacion del NAV*/
+    .menu{
+        display: flex; 
+        align-items: center;
+        height: 80px;
+        border-bottom: 1px solid rgba(255,255,255,0.5);
+        background: rgba(0, 0, 0, 0.1);
+        
+    }
+        .logo{
+            margin-left: 70px;
+            font-size: 30px;
+            font-family: 'Monoton', cursive;
+        }
+        .logo a{
+            color: turquoise ;
+        }
+
+        .logo a:hover{
+            color: teal;
+        }
+
+        .navegacion{
+            margin-left: 150px;
+            font-size: 12px;
+            
+        }
+        .navegacion a{
+            color: white;
+            padding: 0 15px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .navegacion a:hover{
+            color: turquoise;
+        }
+
+        .social{
+            display:flex;
+            flex: 1 1 auto;
+            margin-left: 200px;
+        }
+        .social a{
+            padding: 0 5px;
+            color: turquoise;
+            font-size:18px;               
+        }
+        .social a:hover{
+            color:teal;
+        }
+
+/*Presentacion*/
+.principal{
+    align-items: center;
+    padding: 90px;
+}        
+    .saludo{
+        color:white;
+        font-size: 80px;
+        margin-top: 40px;
+        animation-duration: 3s;
+        animation-name: slidein;
+        overflow:hidden
+    }
+    @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%
+        }
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+        .presentacion{
+            font-size: 30px;
+            color: antiquewhite;
+            position: relative;
+            letter-spacing: 1.2px;
+        }
+        #nombre{
+            color: turquoise;
+        }
+        #hola{
+            color: turquoise;
+        }
+        .btn{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            margin-top: -50px;
+        }
+        .btn button{
+            padding: 14px;
+            border-radius: 25px 0 25px 0;
+            background-color: turquoise;
+            border-color: turquoise;
+            
+        }
+        .btn a{
+            color: white;
+            text-transform: uppercase;
+            font-size: 12px;
+        }
+        .btn button:hover{
+            background-color: teal;
+            border-color: teal;
+        }
+/*Frase sobre la vida*/
+    .frase-content{
+        margin-left: 1000px;
+        margin-top: 45px;
+        padding: 3px;
+    }
+    .frase {
+        overflow: hidden;
+        font-family: Helvetica, sans-serif;
+        white-space: nowrap;
+        font-size: 18px;
+        color: tomato;
+        width: 250px;
+        border-right: 2px solid rgba(0, 0, 0, 0.87);
+        animation: animacionIntro 2.8s steps(23, end), animacionBar 1s step-end infinite;
+        animation-iteration-count: infinite;
+        
+        }
+        
+        .fa-heart-o{
+            color: tomato;
+        }
+        @keyframes animacionIntro {
+        0% {
+            width: 0;
+        }
+        100% {
+            width: 250px;
+        }
+        }
+        @keyframes animacionBar {
+        0%,
+        50% {
+            border-color: teal
+        }
+        }
+
+
+        /*SOBRE MI*/
+.parte-superior{
+    background-color: rgb(29, 29, 29);
+    padding-bottom: 100px;
+}
+.fondo{ 
+    margin: 0;
+}
+.titulo{
+    color: turquoise;
+    margin: 50px auto 30px 40px;
+    font-size: 20px;
+}
+    .descripcion{
+        display: flex;
+        color: whitesmoke;
+        letter-spacing: 1.2px;
+        margin: 20px 100px auto 40px;
+    }
+    .imagen4{
+        width: 100%;
+        display: inline-block;
+        padding-left: 200px;
+        margin-top: -20px;
+    }
+    .cv{
+    margin: -100px 0 0 40px;
+    padding: 0;
+}
+    .cv a{
+        letter-spacing: 4px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .cv button{
+        padding: 10px;
+        border-radius: 6px;
+    }
+    .cv button:hover{
+        background-color: lightblue;
+    }
+
+.seccion{
+    text-align: center;
+    
+}
+    .tecnologias-titulo{
+        color: rgb(29, 29, 29);
+        margin: 40px auto 20px 40px;
+        font-size: 26px;
+    }
+    .tecnologia{
+        margin: 10px 20px 20px 20px;
+        display: inline-block;
+        border: 1px solid rgb(29, 29, 29);
+        padding: 20px;
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        
+    }
+    .logo-tec{
+        height:100px;
+        width:auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto 
+    }
+    .tecnologia:hover{
+        filter: opacity(.4);
+        
+    }
+    .logo-nombre{
+        font-family: cursive;
+    }
+
+    /*Desarrollos*/
+
+    .sitio1{
+        height: 200px;
+        width: auto;
+        padding-bottom: 10px;
+    }
+    .sitio2{
+        height: 200px;
+        width: auto;    
+    }
+    .sitio3{
+        height: 420px;
+        width: auto;
+        margin-left: 200px;
+    }
+    
+    .sitio1-2{
+        float:right;
+        margin-right: 200px;
+        margin-top: -420px;
+    }
+
+    /*Contactame*/
+
+.formulario{
+    width: 100%;
+    height: auto;
+    
+    padding-left: 250px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+         
+}
+input{
+    width: 400px;
+    height: 30px;
+    display: block;
+    margin-bottom: 30px;
+}
+textarea{
+    width: 400px;
+    height: 150px;
+}
+
+#btn-form{
+    width: 100px;
+    background-color: tomato;
+}
+#btn-form:hover{
+    background-color: brown;
+}
+.campo{
+    color: turquoise;
+}
+#submit{
+    justify-content: center;
+}
+.datos-contacto{
+    float: right;
+    margin-right: 250px;
+    margin-top: -320px;
+}
