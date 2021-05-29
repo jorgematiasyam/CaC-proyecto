@@ -71,7 +71,7 @@ a{
             color:teal;
         }
 
-/*Presentacion*/
+                    /*INICIO*/
 .principal{
     align-items: center;
     padding: 90px;
@@ -136,7 +136,7 @@ a{
             border-color: none;    
         }
 
-/*Frase sobre la vida*/
+/*Frase sobre la vida - efecto*/
     .frase-content{
         margin-left: 1000px;
         margin-top: 45px;
@@ -174,7 +174,7 @@ a{
         }
 
 
-        /*SOBRE MI*/
+                 /*SOBRE MI*/
 .parte-superior{
     background-color: rgb(29, 29, 29);
     
@@ -197,10 +197,8 @@ a{
     .imagen4{
         float:right;
         width: 20%;
-        margin: -250px 200px auto auto;
-        
+        margin: -250px 200px auto auto;  
     }
-    
     .cv{
     margin: -30px 0 0 40px;
     padding: 0;
@@ -257,7 +255,7 @@ a{
         font-size: 16px;
     }
 
-    /*Desarrollos*/
+                        /*DESARROLLOS*/
 
     .sitio1{
         height: 200px;
@@ -274,21 +272,21 @@ a{
         width: auto;
         margin-left: 130px;
     }
-    .sitio3:hover{
-        filter: opacity(.4);
-    }
-    .sitio2:hover{
-        filter: opacity(.4);
-    }
-    .sitio1:hover{
-        filter: opacity(.4);
-    }
+        .sitio3:hover{
+            filter: opacity(.4);
+        }
+        .sitio2:hover{
+            filter: opacity(.4);
+        }
+        .sitio1:hover{
+            filter: opacity(.4);
+        }
     
-    .sitio1-2{
-        float:right;
-        margin-right: 170px;
-        margin-top: -420px;
-    }
+        .sitio1-2{
+            float:right;
+            margin-right: 170px;
+            margin-top: -420px;
+        }
 
     /*Contactame*/
 
@@ -301,176 +299,174 @@ a{
     box-sizing: border-box;
          
 }
-input{
-    width: 400px;
-    height: 30px;
-    display: block;
-    margin-bottom: 40px;
-}
-textarea{
-    width: 400px;
-    height: 150px;
-}
+    input{
+        width: 400px;
+        height: 30px;
+        display: block;
+        margin-bottom: 40px;
+    }
+    textarea{
+        width: 400px;
+        height: 150px;
+    }
 
-#btn-form{
-    width: 100px;
-    background-color: tomato;
-}
-#btn-form:hover{
-    background-color: brown;
-}
-.campo{
-    color: turquoise;
-}
-#submit{
-    justify-content: center;
-}
-.datos-contacto{
-    float: right;
-    margin-right: 200px;
-    margin-top: -320px;
-}
-.dato-personal{
-    color:cornsilk;
-    font-weight: normal;
-}
-.mail{
-    color:cornsilk;
-    font-weight: normal;
-    font-size: 20px;
-}
-.githubtitulo{
-    color:turquoise;
-    font-size: 30px;
-    display: block;
-}
-.githubtitulo:hover{
-    text-decoration: none;
-    color: teal;
-}
+    #btn-form{
+        width: 100px;
+        background-color: tomato;
+    }
+    #btn-form:hover{
+        background-color: brown;
+    }
+    .campo{
+        color: turquoise;
+    }
+    #submit{
+        justify-content: center;
+    }
+    .datos-contacto{
+        float: right;
+        margin-right: 200px;
+        margin-top: -320px;
+    }
+    .dato-personal{
+        color:cornsilk;
+        font-weight: normal;
+    }
+    .mail{
+        color:cornsilk;
+        font-weight: normal;
+        font-size: 20px;
+    }
+    .githubtitulo{
+        color:turquoise;
+        font-size: 30px;
+        display: block;
+    }
+    .githubtitulo:hover{
+        text-decoration: none;
+        color: teal;
+    }
 
 
 @media all and (max-width:1190px){
     
-.logo{
-    font-size: 30px;
-}    
-.off{
-    display:none;
-}
-.navegacion{
-    font-size: 30px;
-    margin: auto auto auto 200px;
-}
-.btn{
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(100%);
-    margin-left: 300px;
-}
-.frase-content{
-    margin-left: 100px;
-}
-.imagen4{
-    margin-right: 150px;
-}
-.sitio3{
-    margin-left: 30px;
-    
-}
-.sitio1-2{
-    
-    margin-right: 30px
-}
-input{
-    width: 290px;
-    height: 30px;
-    margin-bottom: 40px;
-}
-textarea{
-    width: 290px;
-    height: 150px;
-}
-.dato-personal{
-    font-size: 19px;
-    font-weight: normal;
-}
-.mail{
-    font-weight: normal;
-    font-size: 19px;
-}
-.githubtitulo{
-    font-size: 30px;
-}
-
-
-@media all and (max-width:1000px){
+    .logo{
+        font-size: 30px;
+    }    
+    .off{
+        display:none;
+    }
+    .navegacion{
+        font-size: 30px;
+        margin: auto auto auto 200px;
+    }
+    .btn{
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(100%);
+        margin-left: 300px;
+    }
+    .frase-content{
+        margin-left: 100px;
+    }
+    .imagen4{
+        margin-right: 150px;
+    }
     .sitio3{
         margin-left: 30px;
         
     }
     .sitio1-2{
         
-        margin-right: 30px;
+        margin-right: 30px
     }
-        .dato-personal{
-            font-size: 19px;
-            font-weight: normal;
-            margin-right: 10px;
+    input{
+        width: 290px;
+        height: 30px;
+        margin-bottom: 40px;
+    }
+    textarea{
+        width: 290px;
+        height: 150px;
+    }
+    .dato-personal{
+        font-size: 19px;
+        font-weight: normal;
+    }
+    .mail{
+        font-weight: normal;
+        font-size: 19px;
+    }
+    .githubtitulo{
+        font-size: 30px;
+    }
+
+
+@media all and (max-width:1000px){
+        .sitio3{
+            margin-left: 30px;
+            
         }
-        .mail{
-            font-weight: normal;
-            font-size: 19px;
+        .sitio1-2{
+            
+            margin-right: 30px;
         }
-        .githubtitulo{
-            font-size: 30px;
-        }
+            .dato-personal{
+                font-size: 19px;
+                font-weight: normal;
+                margin-right: 10px;
+            }
+            .mail{
+                font-weight: normal;
+                font-size: 19px;
+            }
+            .githubtitulo{
+                font-size: 30px;
+            }
 
 }
 @media all and (max-width:920px){
 
-.social{
-    margin-left: 100px;
-}
-.navegacion{
-    font-size: 20px;
-    margin-left: 80px;
-}
-.saludo{
-    font-size: 30px;
-}
-.imagen4{
-    float:left;
-    margin-left: 200px;
-    margin-top: -310px;
-    width: 10%;
-    height: auto;
-}
-.descripcion{
-    margin-left: auto;
-    margin-right: auto;
-}
-.cv{
-    margin-left: 250px;
-    margin-right: auto;
-}
-.sitio1-2{
-    float:left;
-    margin-top: 60px;
-    margin-left: 100px;
-    padding-bottom: 50px;
-}
-.sitio3{
-    margin-left:100px;
-}
+    .social{
+        margin-left: 100px;
+    }
+    .navegacion{
+        font-size: 20px;
+        margin-left: 80px;
+    }
+    .saludo{
+        font-size: 30px;
+    }
+    .imagen4{
+        float:left;
+        margin-left: 200px;
+        margin-top: -310px;
+        width: 10%;
+        height: auto;
+    }
+    .descripcion{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cv{
+        margin-left: 250px;
+        margin-right: auto;
+    }
+    .sitio1-2{
+        float:left;
+        margin-top: 60px;
+        margin-left: 100px;
+        padding-bottom: 50px;
+    }
+    .sitio3{
+        margin-left:100px;
+    }
 
-.datos-contacto{
-    float:left;
-    margin-top: 80px;
-    margin-left: 150px;
-    padding-bottom: 50px;
-}
-    
-
+    .datos-contacto{
+        float:left;
+        margin-top: 80px;
+        margin-left: 150px;
+        padding-bottom: 50px;
+    }
 }
 
 }
