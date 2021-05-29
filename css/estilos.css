@@ -1,17 +1,13 @@
-body{
+.fondo{
     font-family: 'Montserrat' , sans-serif;
     margin:0px;	   
     padding: 0; 
-	
-}
-header{
     background: url(../imgEditadas/img3.jpg); 
     
     background-position: center;
     background-attachment: contain;
     background-size: cover;
-    box-sizing: border-box;
-    
+	
 }
 a{
     text-decoration: none;
@@ -23,8 +19,10 @@ a{
         align-items: center;
         height: 80px;
         border-bottom: 1px solid rgba(255,255,255,0.5);
-        background: rgba(0, 0, 0, 0.1);
-        
+        background: rgba(0, 0, 0, 0.1);        
+    }
+    .menu-bar{
+        display:none;
     }
         .logo{
             margin-left: 70px;
@@ -37,21 +35,26 @@ a{
 
         .logo a:hover{
             color: teal;
+            text-decoration: none;
         }
 
         .navegacion{
-            margin-left: 150px;
-            font-size: 12px;
-            
+            margin-left: 200px;
+            margin-right: auto;
+            font-size: 12px;            
+        }
+        .navegacion .responsive{
+            display: inline;
         }
         .navegacion a{
             color: white;
-            padding: 0 15px;
+            padding: 0 10px;
             letter-spacing: 2px;
             text-transform: uppercase;
         }
         .navegacion a:hover{
             color: turquoise;
+            text-decoration: none;
         }
 
         .social{
@@ -104,27 +107,35 @@ a{
             color: turquoise;
         }
         .btn{
-            display: flex;
-            justify-content: center;
-            align-items:center;
             margin-top: -50px;
+            padding-top: 50px; 
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(500%, -50%);
+               
         }
-        .btn button{
-            padding: 14px;
-            border-radius: 25px 0 25px 0;
+        .btn-conoceme{
+            border-radius: 10px;
             background-color: turquoise;
-            border-color: turquoise;
+            border-color: none;
+            padding: 8px;
+            margin-left: auto;
+            margin-right: auto;
             
         }
-        .btn a{
+        .btn-conoceme a{
             color: white;
             text-transform: uppercase;
             font-size: 12px;
         }
-        .btn button:hover{
-            background-color: teal;
-            border-color: teal;
+        .btn-conoceme a:hover{
+            text-decoration: none;
+            color:white;
         }
+        .btn-conoceme:hover{
+            background-color: teal;
+            border-color: none;    
+        }
+
 /*Frase sobre la vida*/
     .frase-content{
         margin-left: 1000px;
@@ -139,7 +150,7 @@ a{
         color: tomato;
         width: 250px;
         border-right: 2px solid rgba(0, 0, 0, 0.87);
-        animation: animacionIntro 2.8s steps(23, end), animacionBar 1s step-end infinite;
+        animation: animacionIntro 3.8s steps(23, end), animacionBar 1s step-end infinite;
         animation-iteration-count: infinite;
         
         }
@@ -166,30 +177,32 @@ a{
         /*SOBRE MI*/
 .parte-superior{
     background-color: rgb(29, 29, 29);
-    padding-bottom: 100px;
+    
+    padding-bottom: 50px;
 }
-.fondo{ 
+.fondo-sobremi{ 
     margin: 0;
 }
 .titulo{
     color: turquoise;
-    margin: 50px auto 30px 40px;
+    margin: 40px auto 30px 40px;
     font-size: 20px;
 }
     .descripcion{
         display: flex;
         color: whitesmoke;
         letter-spacing: 1.2px;
-        margin: 20px 100px auto 40px;
+        margin: 20px 500px auto 40px;
     }
     .imagen4{
-        width: 100%;
-        display: inline-block;
-        padding-left: 200px;
-        margin-top: -20px;
+        float:right;
+        width: 20%;
+        margin: -250px 200px auto auto;
+        
     }
+    
     .cv{
-    margin: -100px 0 0 40px;
+    margin: -30px 0 0 40px;
     padding: 0;
 }
     .cv a{
@@ -197,22 +210,25 @@ a{
         font-weight: bold;
         color: black;
     }
-
+    .cv a:hover{
+        color: black;
+        text-decoration: none;
+    }
     .cv button{
         padding: 10px;
         border-radius: 6px;
     }
     .cv button:hover{
         background-color: lightblue;
+        text-decoration: none;
     }
 
 .seccion{
-    text-align: center;
-    
+    text-align: center;  
 }
     .tecnologias-titulo{
         color: rgb(29, 29, 29);
-        margin: 40px auto 20px 40px;
+        margin: 20px auto 20px 40px;
         font-size: 26px;
     }
     .tecnologia{
@@ -233,33 +249,44 @@ a{
         margin-right: auto 
     }
     .tecnologia:hover{
-        filter: opacity(.4);
+        filter: blur(8px);
         
     }
     .logo-nombre{
         font-family: cursive;
+        font-size: 16px;
     }
 
     /*Desarrollos*/
 
     .sitio1{
         height: 200px;
-        width: auto;
-        padding-bottom: 10px;
+        width: 400px;
+        padding-bottom: 20px;
     }
     .sitio2{
+        padding-top: 20px;
         height: 200px;
-        width: auto;    
+        width: 400px;    
     }
     .sitio3{
         height: 420px;
         width: auto;
-        margin-left: 200px;
+        margin-left: 130px;
+    }
+    .sitio3:hover{
+        filter: opacity(.4);
+    }
+    .sitio2:hover{
+        filter: opacity(.4);
+    }
+    .sitio1:hover{
+        filter: opacity(.4);
     }
     
     .sitio1-2{
         float:right;
-        margin-right: 200px;
+        margin-right: 170px;
         margin-top: -420px;
     }
 
@@ -269,8 +296,8 @@ a{
     width: 100%;
     height: auto;
     
-    padding-left: 250px;
-    padding-bottom: 5px;
+    padding-left: 150px;
+    padding-bottom: 15px;
     box-sizing: border-box;
          
 }
@@ -278,7 +305,7 @@ input{
     width: 400px;
     height: 30px;
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 textarea{
     width: 400px;
@@ -300,6 +327,201 @@ textarea{
 }
 .datos-contacto{
     float: right;
-    margin-right: 250px;
+    margin-right: 200px;
     margin-top: -320px;
 }
+.dato-personal{
+    color:cornsilk;
+    font-weight: normal;
+}
+.mail{
+    color:cornsilk;
+    font-weight: normal;
+    font-size: 20px;
+}
+.githubtitulo{
+    color:turquoise;
+    font-size: 30px;
+    display: block;
+}
+.githubtitulo:hover{
+    text-decoration: none;
+    color: teal;
+}
+
+
+@media all and (max-width:1190px){
+    
+.logo{
+    font-size: 30px;
+}    
+.off{
+    display:none;
+}
+.navegacion{
+    font-size: 30px;
+    margin: auto auto auto 200px;
+}
+.btn{
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(100%);
+    margin-left: 300px;
+}
+.frase-content{
+    margin-left: 100px;
+}
+.imagen4{
+    margin-right: 150px;
+}
+.sitio3{
+    margin-left: 30px;
+    
+}
+.sitio1-2{
+    
+    margin-right: 30px
+}
+input{
+    width: 290px;
+    height: 30px;
+    margin-bottom: 40px;
+}
+textarea{
+    width: 290px;
+    height: 150px;
+}
+.dato-personal{
+    font-size: 19px;
+    font-weight: normal;
+}
+.mail{
+    font-weight: normal;
+    font-size: 19px;
+}
+.githubtitulo{
+    font-size: 30px;
+}
+
+
+@media all and (max-width:1000px){
+    .sitio3{
+        margin-left: 30px;
+        
+    }
+    .sitio1-2{
+        
+        margin-right: 30px;
+    }
+        .dato-personal{
+            font-size: 19px;
+            font-weight: normal;
+            margin-right: 10px;
+        }
+        .mail{
+            font-weight: normal;
+            font-size: 19px;
+        }
+        .githubtitulo{
+            font-size: 30px;
+        }
+
+}
+@media all and (max-width:920px){
+
+.social{
+    margin-left: 100px;
+}
+.navegacion{
+    font-size: 20px;
+    margin-left: 80px;
+}
+.saludo{
+    font-size: 30px;
+}
+.imagen4{
+    float:left;
+    margin-left: 200px;
+    margin-top: -310px;
+    width: 10%;
+    height: auto;
+}
+.descripcion{
+    margin-left: auto;
+    margin-right: auto;
+}
+.cv{
+    margin-left: 250px;
+    margin-right: auto;
+}
+.sitio1-2{
+    float:left;
+    margin-top: 60px;
+    margin-left: 100px;
+    padding-bottom: 50px;
+}
+.sitio3{
+    margin-left:100px;
+}
+
+.datos-contacto{
+    float:left;
+    margin-top: 80px;
+    margin-left: 150px;
+    padding-bottom: 50px;
+}
+    
+
+}
+
+}
+@media all and (max-width:800px){
+    .btn{
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(100%);
+        margin-left: 200px;
+    }
+    .cv{
+        float:left;
+    }
+    .imagen4{
+        display: none;
+    }
+}
+@media all and (max-width:700px){
+    .btn{
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(100%);
+        margin-left: 100px;
+    }
+
+    .navegacion .responsive{
+        display:inline-block;
+    }
+    .imagen4{
+        margin-top: -420px;
+    }
+}
+@media all and (max-width:600px){
+
+    .navegacion{
+        margin-left: 50px;
+    }
+    .logo{
+        margin-left: 30px;
+    }
+    .social{
+        margin-left: 70px;
+    }
+    .navegacion .responsive{
+        display: inline-block;
+    }
+    .cv{
+        margin-left: 150px;
+        margin-right: auto;
+    }
+    .imagen4{
+        margin-top: -420px;
+    }
+}
+
+
