@@ -1,3 +1,13 @@
+<?php 
+
+//variables
+$nombres=$_POST['nombres'];
+
+$correo=$_POST['correo'];
+
+$mensaje=$_POST['mensaje'];
+
+
 // configuramos datos de email
 
 $destinatario="jorgematiasyam@gmail.com";
@@ -12,8 +22,6 @@ $cuerpo.="Nombres: ".$nombres."\n";
 $cuerpo.="E-mail: ".$correo."\n";
 
 $cuerpo.="Mensaje: ".$mensaje."\n";
-
-
 
 
 // enviamos el email
